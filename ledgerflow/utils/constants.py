@@ -1,0 +1,3 @@
+PAYMENT_METHODS = ["Cash", "Card", "UPI", "Bank Transfer"]
+DEFAULT_ALERT_PERCENTAGE = 80
+DEFAULT_CURRENCY = "₹"
