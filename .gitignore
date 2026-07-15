@@ -1,0 +1,31 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+ledgerflow/database/ledger.db
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Output directories
+ledgerflow/exports/csv/*
+!ledgerflow/exports/csv/.gitkeep
+ledgerflow/exports/pdf/*
+!ledgerflow/exports/pdf/.gitkeep
+ledgerflow/reports/monthly/*
+!ledgerflow/reports/monthly/.gitkeep
+ledgerflow/reports/yearly/*
+!ledgerflow/reports/yearly/.gitkeep
+ledgerflow/charts/*.png
+!ledgerflow/charts/.gitkeep
+
+# System files
+.DS_Store
+*.log
